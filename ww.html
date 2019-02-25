@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <title>CSS实现鼠标移动到图片，更换图片</title>
+</head>
+<style type="text/css">
+    * {
+    	margin: 0;
+    	padding: 0;
+    }
+    
+    ul li {
+    	list-style: none;
+    	width: 80px;
+    	height: auto;
+    }
+    
+    .nav {
+    	width: 800px;
+    	height: 40px;
+    	margin: 150px auto;
+    }
+    
+    .nav ul {
+    	width: 80px;
+    }
+    
+    .nav ul li {
+    	float: left;
+    	width: 40px;
+    	height: 40px;
+    }
+    
+.fa-twitter:link,
+    .fa-twitter:visited {
+    	display: block;
+    	width: 21px;
+    	height: 20px;
+    	background: url(img/1.png);
+    }
+     
+.fa-twitter:hover {
+    	background: url(img/2.png);
+    }
+ .fa-google-plus-g:link,
+    .fa-google-plus-g:visited {
+    	display: block;
+    	width: 21px;
+    	height: 20px;
+    	background: url(img/2.png);
+    }
+     
+    
+ .fa-google-plus-g:hover {
+    	background: url(img/3.png);
+    }
+    
+    .nav ul li .fa-pinterest-p:link,
+    .fa-pinterest-p:visited {
+    	display: block;
+    	width: 21px;
+    	height: 20px;
+    	background: url(img/3.png);
+    }
+     
+    
+    .nav ul li .fa-pinterest-p:hover {
+    	background: url(img/1.png);
+    }
+    
+    .nav ul li .fa-facebook-f:link,
+    .fa-facebook-f:visited {
+    	display: block;
+    	width: 21px;
+    	height: 20px;
+    	background: url(img/4.png);
+    }
+     
+    
+    .nav ul li .fa-facebook-f:hover {
+    	background: url(img/2.png);
+    }
+
+</style>
+<body>
+<div class="nav">
+    <ul>
+        <li><a href="#" class="fa-twitter"></a></li>
+        <li><a href="#" class="fa-google-plus-g"></a></li>
+        <li><a href="#" class="fa-pinterest-p"></a></li>
+        <li><a href="#" class="fab fa-facebook-f"></a></li>
+    </ul>
+</div>
+</body>
+</html>
